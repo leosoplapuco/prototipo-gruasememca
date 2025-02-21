@@ -9,20 +9,42 @@
     font-weight: 500;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
 /**/
 
 :root{
-    --header: #FFFFFF;
-    
     --body: #FFFFFF;
+    --header: #FFFFFF;
+    --header-top: #000000;
+
+    --white: #FFFFFF;
+    --red: #DA131F;
+
+    --text: #333333;
 
     --black-0: #000000;
     --black-1: #111111;
     --black-2: #222222;
+    --black-3: #333333;
+    --black-4: #444444;
+    --black-5: #555555;
+    --black-6: #666666;
+    --black-7: #777777;
+    --black-8: #888888;
+    --black-9: #999999;
 
-    --white: #FFFFFF;
+    --mx-width: 1600px;
 
-    --footer: #000000;
+    --t-100ms: all 100ms linear;
+    --t-200ms: all 200ms linear;
+    --t-300ms: all 300ms linear;
 }
 
 /**/
@@ -38,3 +60,162 @@
 }
 
 /**/
+
+body{
+    background: var(--body);
+    transition: var(--t-200ms);
+}
+
+/**/
+
+.list-simple{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-simple li{
+    display: flex;
+    gap: 5px;
+}
+
+.list-simple li span{
+    color: #19e212;
+}
+
+/**/
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/**/
+
+.d-grid{
+    display: grid;
+}
+
+/**/
+
+.gap-5{
+    gap: 5px;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+/**/
+
+.text{
+    color: var(--text);
+    transition: var(--t-200ms);
+}
+
+.color-white{
+    color: var(--white);
+}
+
+.color-gray{
+    color: gray;
+}
+
+/**/
+
+button{
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+/**/
+
+.button-link{
+    width: auto;
+    height: 48px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: var(--t-200ms);
+    border-radius: 4px;
+}
+
+.button-link-1{
+    background: var(--red);
+}
+
+.button-link-1:hover{
+    background: #F10B1B;
+}
+
+.button-link-1 span,
+.button-link-1 .button-link-text{
+    color: var(--white);
+}
+
+.button-link-2{
+    border: 1px solid rgba(0 0 0 / 0.15);
+}
+
+.button-link-2:hover{
+    background: rgba(218 19 31 / 0.1);
+    border: 1px solid var(--red);
+}
+
+.button-link-2 span,
+.button-link-2 .button-link-text{
+    color: var(--red);
+}
+
+/**/
+
+.block-container{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.block-content{
+    margin: auto;
+    width: 100%;
+    max-width: var(--mx-width);
+}
+
+.block-title-container{
+    width: 100%;
+    display: flex;
+}
+
+.block-title{
+    margin: auto;
+    font-size: 36px;
+    font-family: 'Anton';
+    font-weight: normal;
+    text-transform: uppercase;
+    color: var(--red);
+}
+
+/**/
+
+@media screen and (max-width: 600px){
+    .button-link{
+        height: 56px;
+    }
+}
