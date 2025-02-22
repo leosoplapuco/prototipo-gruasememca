@@ -176,7 +176,7 @@ function Header(){
                         <li>
                             <a href="mailto: contacto@gruasememca.com" className='button-link button-link-2'>
                                 <span class="material-icons">mail</span>
-                                <p className='button-link-text'>Enviar correo</p>
+                                <p className='button-link-text'>Contáctanos</p>
                             </a>
                         </li>
 

@@ -1,0 +1,21 @@
+{
+    "Machinery":[
+        {
+            "id": 1,
+            "imgsrc": "https://gruasememca.vercel.app/assets/images/Pages/Homepage/maquina-1.png",
+            "name": "PPM 40",
+            "model": "PPM ATT 400",
+            "specs":[
+                {
+                    "Age": "2000",
+                    "BoxType": "Automática ZF",
+                    "Measures": "9 x 2.6 metros",
+                    "feather": "37 metros",
+                    "Nationality": "Americana",
+                    "Engine": "Cummis Americano",
+                    "Fuel": "Petróleo"
+                }
+            ]
+        }
+    ]
+}

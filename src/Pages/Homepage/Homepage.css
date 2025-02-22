@@ -108,4 +108,8 @@
     .hero-content{
         grid-template-columns: 1fr;
     }
+
+    .homepage-services{
+        grid-template-columns: 1fr;
+    }
 }
