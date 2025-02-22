@@ -122,6 +122,16 @@ body{
 
 /**/
 
+.margin-left{
+    margin-left: auto;
+}
+
+.margin-right{
+    margin-right: auto;
+}
+
+/**/
+
 .text{
     color: var(--text);
     transition: var(--t-200ms);
@@ -184,10 +194,26 @@ button{
     color: var(--red);
 }
 
+.button-link-3{
+    border: 1px solid rgba(255 255 255 / 0.5);
+}
+
+.button-link-3:hover{
+    background: rgba(255 255 255 / 0.15);
+    border: 1px solid var(--white);
+}
+
+.button-link-3 span,
+.button-link-3 .button-link-text{
+    color: var(--white);
+}
+
 /**/
 
 .block-container{
+    margin: auto;
     width: 100%;
+    max-width: 2000px;
     display: flex;
     padding: 20px;
 }
@@ -201,6 +227,7 @@ button{
 .block-title-container{
     width: 100%;
     display: flex;
+    margin-bottom: 20px;
 }
 
 .block-title{
@@ -210,6 +237,78 @@ button{
     font-weight: normal;
     text-transform: uppercase;
     color: var(--red);
+}
+
+/**/
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq-title{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    cursor: pointer;
+    position: relative;
+    transition: var(--t-200ms);
+    border-radius: 4px 4px 0 0;
+}
+
+.faq-title:hover{
+    background: rgba(255 255 255 / 0.1);
+}
+
+.faq-title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: rgba(255 255 255 / 0.15);
+}
+
+.faq-title::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background: var(--red);
+    transition: var(--t-200ms);
+}
+
+.faq-title:hover::after,
+.faq-title.active::after{
+    width: 100%;
+}
+
+.faq-title p{
+    font-size: 20px;
+    color: var(--white);
+}
+
+.faq-title span{
+    color: var(--white);
+}
+
+
+.faq-content{
+    overflow: hidden;
+    height: 0;
 }
 
 /**/
