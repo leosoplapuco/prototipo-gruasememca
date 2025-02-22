@@ -7,7 +7,7 @@ function Header(){
                 <div className='header-top'>
                     <ul className='social-networks'>
                         <li>
-                            <a href='https://www.facebook.com/gruasememcasac08' target='_blank' className='social-network social-network-1'>
+                            <a href='https://www.facebook.com/gruasememcasac08' className='social-network social-network-1'>
                                 <p>Facebook</p>
                             </a>
                         </li>
@@ -15,7 +15,7 @@ function Header(){
                         <span className='color-white'>|</span>
 
                         <li>
-                            <a href='https://www.instagram.com/p/DCHT86TOPZc/' target='_blank' className='social-network social-network-2'>
+                            <a href='https://www.instagram.com/p/DCHT86TOPZc/' className='social-network social-network-2'>
                                 <p>Instagram</p>
                             </a>
                         </li>
@@ -23,7 +23,7 @@ function Header(){
                         <span className='color-white'>|</span>
 
                         <li>
-                            <a href='https://www.youtube.com/@gruasememcasac552' target='_blank' className='social-network social-network-3'>
+                            <a href='https://www.youtube.com/@gruasememcasac552' className='social-network social-network-3'>
                                 <p>YouTube</p>
                             </a>
                         </li>
@@ -182,7 +182,7 @@ function Header(){
 
                         <li>
                             <a href="tel: +51998877665" className='button-link button-link-1'>
-                                <span class="material-icons">call</span>
+                                <span class="material-icons">phone_in_talk</span>
                                 <p className='button-link-text'>Llamar ahora</p>
                             </a>
                         </li>

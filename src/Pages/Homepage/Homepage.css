@@ -59,6 +59,45 @@
     object-fit: contain;
 }
 
+/**/
+
+.block-container-homepage-services{
+    padding: 40px 20px;
+    background: var(--black-0);
+}
+
+.block-container-homepage-services > section > div h2{
+    color: var(--white);
+}
+
+.homepage-services{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.homepage-services-target{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.homepage-services-target-title,
+.homepage-services-target-title b{
+    color: var(--white);
+    font-size: 48px;
+}
+
+.homepage-services-target-title b{
+    color: var(--red);
+}
+
+.homepage-services-target .text{
+    color: var(--white);
+}
+
+/**/
+
 @media screen and (max-width: 600px){
     .hero-container{
         padding-top: 40px;
