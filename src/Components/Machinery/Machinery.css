@@ -29,9 +29,15 @@
 
 .machinery-list-container{
     width: 100%;
+    overflow-x: scroll;
+}
+
+.machinery-list-container::-webkit-scrollbar{
+    display: none;
 }
 
 .machinery-list{
+    width: 200%;
     display: flex;
     gap: 10px;
 }
@@ -66,5 +72,9 @@
 @media screen and (max-width: 600px){
     .machinery-targets{
         grid-template-columns: 1fr;
-    }    
+    }
+    
+    .machinery-list{
+        width: 300%;
+    }
 }

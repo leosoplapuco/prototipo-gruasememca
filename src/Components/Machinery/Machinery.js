@@ -60,8 +60,29 @@ function Machinery(){
                             <p className='text'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>
                         </div>
 
+                        <div className='blog-targets-buttons'>
+                            <button type='button' className='button-link button-link-2 blog-targets-button blog-targets-button-1'>
+                                <span class="material-icons">chevron_left</span>
+                            </button>
+                            <button type='button' className='button-link button-link-2 blog-targets-button blog-targets-button-2'>
+                                <span class="material-icons">chevron_right</span>
+                            </button>
+                        </div>
+
                         <div className='machinery-list-container'>
                             <ul className='machinery-list'>
+                                <li>
+                                    <a href="/" title="">
+                                        <img src="https://gruasememca.vercel.app/assets/images/Pages/Homepage/maquina-1.png" alt="" />
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/" title="">
+                                        <img src="https://gruasememca.vercel.app/assets/images/Pages/Homepage/maquina-1.png" alt="" />
+                                    </a>
+                                </li>
+
                                 <li>
                                     <a href="/" title="">
                                         <img src="https://gruasememca.vercel.app/assets/images/Pages/Homepage/maquina-1.png" alt="" />
