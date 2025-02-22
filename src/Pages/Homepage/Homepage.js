@@ -2,6 +2,7 @@ import './Homepage.css';
 
 import Header from '../../Components/Header/Header';
 import BlogTargets from '../../Components/BlogTargets/BlogTargets';
+import Machinery from '../../Components/Machinery/Machinery';
 
 function Homepage(){
     return(
@@ -194,6 +195,9 @@ function Homepage(){
                         </div>
                     </section>
                 </div>
+
+                <Machinery/>
+                
             </main>
         </>
     );

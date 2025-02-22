@@ -1,0 +1,28 @@
+.machinery-targets{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.machinery-target{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.machinery-target-1 img{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+}
+
+.machinery-name{
+    font-size: 40px;
+}
+
+@media screen and (max-width: 600px){
+    .machinery-targets{
+        grid-template-columns: 1fr;
+    }    
+}
