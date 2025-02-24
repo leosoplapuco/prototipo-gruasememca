@@ -352,4 +352,8 @@
     .homepage-services{
         grid-template-columns: 1fr;
     }
+
+    .about-us-targets{
+        grid-template-columns: 1fr;
+    }
 }
