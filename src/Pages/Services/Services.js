@@ -1,9 +1,9 @@
-import './AboutUs.css';
+import './Services.css';
 
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 
-function AboutUs(){
+function Homepage(){
     return(
         <>
             <Header/>
@@ -12,7 +12,7 @@ function AboutUs(){
                 <div className='block-container'>
                     <section className='block-content'>
                         <div className='block-title-container'>
-                            <h2 className='block-title'>Sobre nosotros</h2>
+                            <h2 className='block-title'>Nuestros servicios</h2>
                         </div>
                     </section>
                 </div>
@@ -23,4 +23,4 @@ function AboutUs(){
     );
 }
 
-export default AboutUs;
+export default Homepage;
