@@ -5,7 +5,7 @@ function Machinery(){
         <div className='block-container block-container-machinery'>
             <section className='block-content'>
                 <div className='block-title-container'>
-                    <h2 className='block-title'>Maquinaria</h2>
+                    <h3 className='block-title'>Nuestra maquinaria</h3>
                 </div>
 
                 <div className='machinery-targets'>
@@ -20,40 +20,40 @@ function Machinery(){
 
                     <div className='machinery-target machinery-target-2'>
                         <div className='machinery-description'>
-                            <p className='machinery-name'>Pettibone 80</p>
+                            <p className='machinery-name'>PPM 40</p>
 
                             <ul className='list-simple'>
                                 <li>
                                     <span class="material-icons">check</span>
-                                    <p className='text'>Año: 1988</p>
+                                    <p className='text'>Modelo: PPM ATT 40</p>
                                 </li>
                                 <li>
                                     <span class="material-icons">check</span>
-                                    <p className='text'>Tipo de caja: Fuller</p>
+                                    <p className='text'>Año: 2000</p>
                                 </li>
                                 <li>
                                     <span class="material-icons">check</span>
-                                    <p className='text'>Año: 1988</p>
+                                    <p className='text'>Caja: Automática ZF</p>
                                 </li>
                                 <li>
                                     <span class="material-icons">check</span>
-                                    <p className='text'>Tipo de caja: Fuller</p>
+                                    <p className='text'>Medidas: 9 x 2.6 metros</p>
                                 </li>
                                 <li>
                                     <span class="material-icons">check</span>
-                                    <p className='text'>Año: 1988</p>
+                                    <p className='text'>Pluma: 37 metros</p>
                                 </li>
                                 <li>
                                     <span class="material-icons">check</span>
-                                    <p className='text'>Tipo de caja: Fuller</p>
+                                    <p className='text'>Motor: Cummis americano</p>
                                 </li>
                                 <li>
                                     <span class="material-icons">check</span>
-                                    <p className='text'>Año: 1988</p>
+                                    <p className='text'>Nacionalidad: Americana</p>
                                 </li>
                                 <li>
                                     <span class="material-icons">check</span>
-                                    <p className='text'>Tipo de caja: Fuller</p>
+                                    <p className='text'>Combustible: Petróleo</p>
                                 </li>
                             </ul>
 

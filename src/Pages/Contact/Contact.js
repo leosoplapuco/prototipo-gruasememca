@@ -1,9 +1,9 @@
-import './AboutUs.css';
+import './Contact.css';
 
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 
-function AboutUs(){
+function Contact(){
     return(
         <>
             <Header/>
@@ -23,4 +23,4 @@ function AboutUs(){
     );
 }
 
-export default AboutUs;
+export default Contact;
