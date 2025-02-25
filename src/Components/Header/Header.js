@@ -1,6 +1,15 @@
+import { useState } from 'react';
+
 import './Header.css';
 
 function Header(){
+
+    const [activeMenu, setActiveMenu] = useState(null);
+
+    const handleToggleMenu = (menu) => {
+        setActiveMenu(prevMenu => (prevMenu === menu ? null : menu));
+    };
+
     return(
         <>
             <header>
@@ -53,16 +62,16 @@ function Header(){
                                     </a>
                                 </li>
                                 <li>
-                                    <button type='button' className='menu-link menu-link-2'>
+                                    <button type='button' className={`menu-link menu-link-2 ${activeMenu === 'menu2' ? 'active' : ''}`} onClick={() => handleToggleMenu('menu2')}>
                                         <h2>Servicios</h2>
                                         <span class="material-icons">keyboard_arrow_down</span>
                                     </button>
                                     
-                                    <div className='sub-menu sub-menu-1 active'>
+                                    <div className={`sub-menu sub-menu-1 ${activeMenu === 'menu2' ? 'active' : ''}`}>
                                         <div className='sub-menu-top d-flex-center-center'>
                                             <p className='sub-menu-target-title'>Nuestros servicios</p>
 
-                                            <button type='button'>
+                                            <button type='button' className='sub-menu-close' onClick={() => handleToggleMenu(null)}>
                                                 <span class="material-icons">close</span>
                                             </button>
                                         </div>
@@ -92,7 +101,8 @@ function Header(){
                                                             <span class="material-icons">check</span>
                                                             <p>Contamos con flota propia de grúas telescópicas con capacidades de carga de hasta las 220 toneladas.</p>
                                                         </li>
-                                                    </ul>                                                </a>
+                                                    </ul>
+                                                </a>
                                             </li>
                                             <li>
                                                 <a href='/servicios/izaje'>
@@ -134,13 +144,19 @@ function Header(){
                                     </div>
                                 </li>
                                 <li>
-                                    <button type='button' className='menu-link menu-link-3'>
+                                    <button type='button' className={`menu-link menu-link-3 ${activeMenu === 'menu3' ? 'active' : ''}`} onClick={() => handleToggleMenu('menu3')}>
                                         <h2>Nosotros</h2>
                                         <span class="material-icons">keyboard_arrow_down</span>
                                     </button>
 
-                                    <div className='sub-menu sub-menu-2'>
-                                        <p className='sub-menu-target-title'>Acerca de nosotros</p>
+                                    <div className={`sub-menu sub-menu-2 ${activeMenu === 'menu3' ? 'active' : ''}`}>
+                                        <div className='sub-menu-top d-flex-center-center'>
+                                            <p className='sub-menu-target-title'>Sobre nosotros</p>
+
+                                            <button type='button' className='sub-menu-close' onClick={() => handleToggleMenu(null)}>
+                                                <span class="material-icons">close</span>
+                                            </button>
+                                        </div>
 
                                         <div className='sub-menu-target sub-menu-target-1'>
                                             <p className='text-title'>Lorem Ipsum is simply ap into electronic typesetting, remaining essentially unchanged</p>
@@ -148,21 +164,11 @@ function Header(){
                                             <ul className='list-simple'>
                                                 <li>
                                                     <span class="material-icons">check</span>
-                                                    <ul className='list-simple'>
-                                                        <li>
-                                                            <span class="material-icons">check</span>
-                                                            <p>Contamos con flota propia de grúas telescópicas con capacidades de carga de hasta las 220 toneladas.</p>
-                                                        </li>
-                                                    </ul>
+                                                    <p className='text'>Lorem Ipsum is simply ap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
                                                 </li>
                                                 <li>
                                                     <span class="material-icons">check</span>
-                                                    <ul className='list-simple'>
-                                                        <li>
-                                                            <span class="material-icons">check</span>
-                                                            <p>Contamos con flota propia de grúas telescópicas con capacidades de carga de hasta las 220 toneladas.</p>
-                                                        </li>
-                                                    </ul>
+                                                    <p className='text'>Lorem Ipsum is ever since the essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
                                                 </li>
                                             </ul>
                                         </div>
@@ -170,26 +176,38 @@ function Header(){
                                         <ul className='sub-menu-target sub-menu-target-2'>
                                             <li>
                                                 <a href='/nosotros/'>
-                                                    <img src="https://gruasememca.vercel.app/assets/images/icons/alquiler-de-gruas-telescopicas-icono.png" alt=""/>
-
+                                                    <img src="https://gruasememca.vercel.app/assets/images/icons/alquiler-de-gruas-telescopicas-icono.png" alt="" className='' />
                                                     <h3>¿Quienes somos?</h3>
-                                                    <p>Contamos con flota propia de grúas telescópicas con capacidades de carga de hasta las 220 toneladas.</p>
+                                                    <ul className='list-simple'>
+                                                        <li>
+                                                            <span class="material-icons">check</span>
+                                                            <p>Contamos con flota propia de grúas telescópicas con capacidades de carga de hasta las 220 toneladas.</p>
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href='/maquinaria/'>
+                                                    <img src="https://gruasememca.vercel.app/assets/images/icons/alquiler-de-gruas-telescopicas-icono.png" alt="" className='' />
+                                                    <h3>Nuestra maquinaria</h3>
+                                                    <ul className='list-simple'>
+                                                        <li>
+                                                            <span class="material-icons">check</span>
+                                                            <p>Contamos con flota propia de grúas telescópicas con capacidades de carga de hasta las 220 toneladas.</p>
+                                                        </li>
+                                                    </ul>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href='/nosotros/certificaciones'>
-                                                    <img src="https://gruasememca.vercel.app/assets/images/icons/alquiler-de-gruas-telescopicas-icono.png" alt=""/>
-
-                                                    <h3>Nuestras certificaciones</h3>
-                                                    <p>Contamos con flota propia de grúas telescópicas con capacidades de carga de hasta las 220 toneladas.</p>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href='/nosotros/maquinaria'>
-                                                    <img src="https://gruasememca.vercel.app/assets/images/icons/alquiler-de-gruas-telescopicas-icono.png" alt=""/>
-
-                                                    <h3>Nuestra maquinaria</h3>
-                                                    <p>Contamos con flota propia de grúas telescópicas con capacidades de carga de hasta las 220 toneladas.</p>
+                                                    <img src="https://gruasememca.vercel.app/assets/images/icons/alquiler-de-gruas-telescopicas-icono.png" alt="" className='' />
+                                                    <h3>Certificaciones</h3>
+                                                    <ul className='list-simple'>
+                                                        <li>
+                                                            <span class="material-icons">check</span>
+                                                            <p>Contamos con flota propia de grúas telescópicas con capacidades de carga de hasta las 220 toneladas.</p>
+                                                        </li>
+                                                    </ul>
                                                 </a>
                                             </li>
                                         </ul>
@@ -227,7 +245,7 @@ function Header(){
                 </div>
             </header>
 
-            <div className='header-layer'></div>
+            <div className={`header-layer ${activeMenu ? 'active' : ''}`}></div>
         </>
     );
 }
