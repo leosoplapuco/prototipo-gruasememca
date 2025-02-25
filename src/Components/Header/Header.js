@@ -59,7 +59,13 @@ function Header(){
                                     </button>
                                     
                                     <div className='sub-menu sub-menu-1 active'>
-                                        <p className='sub-menu-target-title'>Nuestros servicios</p>
+                                        <div className='sub-menu-top d-flex-center-center'>
+                                            <p className='sub-menu-target-title'>Nuestros servicios</p>
+
+                                            <button type='button'>
+                                                <span class="material-icons">close</span>
+                                            </button>
+                                        </div>
 
                                         <div className='sub-menu-target sub-menu-target-1'>
                                             <p className='text-title'>Lorem Ipsum is simply ap into electronic typesetting, remaining essentially unchanged</p>
