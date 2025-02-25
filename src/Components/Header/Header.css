@@ -97,6 +97,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: var(--t-200ms);
 }
 
 .menu-link h2,
@@ -152,6 +153,7 @@ header{
     padding: 40px;
     border-radius: 16px;
     background: var(--header);
+    transition: var(--t-200ms);
     border: 1px solid rgba(0 0 0 / 0.25);
 
     display: grid;
@@ -167,10 +169,6 @@ header{
     opacity: 1;
     pointer-events: unset;
     user-select: unset;
-}
-
-.sub-menu-2{
-    display: none;
 }
 
 .sub-menu-target-1{
@@ -224,6 +222,7 @@ header{
     /* padding: 20px 10px; */
     padding: 20px;
     border-radius: 4px;
+    gap: 5px;
 }
 
 .sub-menu-target-2 li a:hover{
@@ -258,10 +257,19 @@ header{
     width: 100%;
     height: 100vh;
     background: rgba(0 0 0 / 0.15);
+    transition: var(--t-200ms);
     backdrop-filter: blur(2px);
     z-index: 99;
 
-    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.header-layer.active{
+    opacity: 1;
+    pointer-events: unset;
+    user-select: unset;
 }
 
 /**/
@@ -295,6 +303,71 @@ header{
     }
 
     .menu-container{
-        display: none;
+        position: fixed;
+        left: 0;
+        top: 120px;
+        width: 100%;
+        height: calc(100vh - 120px);
+        background: var(--header);
+
+        overflow-y: auto;
+    }
+
+    .menu{
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .menu li{
+        width: 100%;
+    }
+
+    .menu-link{
+        width: 100%;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .menu-link:hover{
+        background: rgba(218 19 31 / 0.1);
+    }
+
+    .menu-link.active{
+        padding: 0 20px;
+        background: var(--red);
+        border-radius: 0;
+    }
+    
+    .menu-link-5::before{
+        left: unset;
+        bottom: unset;
+        top: 50%;
+        right: 20px;
+        translate: 0 -50%;
+    }
+
+    .sub-menu{
+        position: unset;
+        left: unset;
+        top: unset;
+        translate: unset;
+
+        width: 100%;
+        /* height: 0; */
+        overflow: hidden;
+        padding: 0 20px;
+
+        opacity: unset;
+        pointer-events: unset;
+        user-select: unset;
+
+        display: flex;
+        flex-direction: column;
+        
+        border: 0;
     }
 }
