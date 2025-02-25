@@ -266,16 +266,20 @@ function Homepage(){
                                                     <p className='text'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
                                                 </div>
 
+                                                <p className='text'>2000</p>
+
                                                 <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
                                             </div>
 
                                             <div className='timeline-target'>
+                                                <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
+
+                                                <p className='text'>2001</p>
+
                                                 <div className='timeline-target-content'>
                                                     <p className='timeline-target-title'>Título 2</p>
                                                     <p className='text'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
                                                 </div>
-
-                                                <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
                                             </div>
 
                                             <div className='timeline-target'>
@@ -284,16 +288,20 @@ function Homepage(){
                                                     <p className='text'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
                                                 </div>
 
+                                                <p className='text'>2002</p>
+
                                                 <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
                                             </div>
 
                                             <div className='timeline-target'>
+                                                <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
+
+                                                <p className='text'>2003</p>
+
                                                 <div className='timeline-target-content'>
                                                     <p className='timeline-target-title'>Título 4</p>
                                                     <p className='text'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
                                                 </div>
-
-                                                <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
                                             </div>
                                         </div>
 
