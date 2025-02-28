@@ -1,12 +1,22 @@
-import './Contact.css';
+import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 
-function Contact(){
+function Contact() {
+    useEffect(() => {
+        document.title = "Contacto | Grúas Ememca SAC";
+    }, []);
+
     return(
         <>
-            <Header/>
+            <Helmet>
+                <title>Contacto | Grúas Ememca SAC</title>
+                <meta name="description" content="Página de contacto de Grúas Ememca SAC" />
+            </Helmet>
+
+            <Header />
 
             <main>
                 <div className='block-container'>
@@ -18,7 +28,7 @@ function Contact(){
                 </div>
             </main>
 
-            <Footer/>
+            <Footer />
         </>
     );
 }
