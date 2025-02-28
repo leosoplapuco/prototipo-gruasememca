@@ -14,7 +14,7 @@ function Machinery(){
 
                         <a href="/" className='button-link button-link-1 margin-left'>
                             <p className='button-link-text'>Ver ficha completa</p>
-                            <span class="material-icons">arrow_forward</span>
+                            <span className="material-icons">arrow_forward</span>
                         </a>
                     </div>
 
@@ -24,35 +24,35 @@ function Machinery(){
 
                             <ul className='list-simple'>
                                 <li>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className='text'>Modelo: PPM ATT 40</p>
                                 </li>
                                 <li>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className='text'>Año: 2000</p>
                                 </li>
                                 <li>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className='text'>Caja: Automática ZF</p>
                                 </li>
                                 <li>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className='text'>Medidas: 9 x 2.6 metros</p>
                                 </li>
                                 <li>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className='text'>Pluma: 37 metros</p>
                                 </li>
                                 <li>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className='text'>Motor: Cummis americano</p>
                                 </li>
                                 <li>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className='text'>Nacionalidad: Americana</p>
                                 </li>
                                 <li>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className='text'>Combustible: Petróleo</p>
                                 </li>
                             </ul>
@@ -62,10 +62,10 @@ function Machinery(){
 
                         <div className='blog-targets-buttons'>
                             <button type='button' className='button-link button-link-2 blog-targets-button blog-targets-button-1'>
-                                <span class="material-icons">chevron_left</span>
+                                <span className="material-icons">chevron_left</span>
                             </button>
                             <button type='button' className='button-link button-link-2 blog-targets-button blog-targets-button-2'>
-                                <span class="material-icons">chevron_right</span>
+                                <span className="material-icons">chevron_right</span>
                             </button>
                         </div>
 

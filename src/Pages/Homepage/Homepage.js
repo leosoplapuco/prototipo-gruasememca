@@ -19,11 +19,11 @@ function Homepage(){
 
                             <ul className='list-simple'>
                                 <li>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
                                 </li>
                                 <li>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
                                 </li>
                             </ul>
@@ -31,13 +31,13 @@ function Homepage(){
                             <ul className='d-flex gap-10'>
                                 <li>
                                     <a href='/nosotros/' className='button-link button-link-2'>
-                                        <span class="material-icons">groups</span>
+                                        <span className="material-icons">groups</span>
                                         <p className='button-link-text'>Más de nosotros</p>
                                     </a>
                                 </li>
                                 <li>
                                     <a href='tel: +51998877665' className='button-link button-link-1'>
-                                        <span class="material-icons">phone_in_talk</span>
+                                        <span className="material-icons">phone_in_talk</span>
                                         <p className='button-link-text'>Llamar ahora</p>
                                     </a>
                                 </li>
@@ -49,7 +49,7 @@ function Homepage(){
                                 <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
 
                                 <button className='hero-content-target-button'>
-                                    <span class="material-icons">play_arrow</span>
+                                    <span className="material-icons">play_arrow</span>
                                 </button>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ function Homepage(){
                 <div className='video-popup-container'>
                     <div className='video-popup'>
                         <button type='button' className='margin-left'>
-                            <span class="material-icons">close</span>
+                            <span className="material-icons">close</span>
                         </button>
 
                         <video controls>
@@ -70,7 +70,7 @@ function Homepage(){
 
                         <a href="/" title="/" className='button-link button-link-1 margin-left'>
                             <p className='button-link-text'>Saber más</p>
-                            <span class="material-icons">arrow_forward</span>
+                            <span className="material-icons">arrow_forward</span>
                         </a>
                     </div>
                 </div>
@@ -91,14 +91,14 @@ function Homepage(){
                                 <ul className='d-flex margin-right gap-10'>
                                     <li>
                                         <a href="tel: +51998877665" title="" className='button-link button-link-1'>
-                                            <span class="material-icons">phone_in_talk</span>
+                                            <span className="material-icons">phone_in_talk</span>
                                             <p className='button-link-text'>Llamar ahora</p>
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="/nosotros/" title="" className='button-link button-link-3'>
-                                            <span class="material-icons">groups</span>
+                                            <span className="material-icons">groups</span>
                                             <p className='button-link-text'>Más de nosotros</p>
                                         </a>
                                     </li>
@@ -110,20 +110,20 @@ function Homepage(){
                                     <li className='faq faq-1'>
                                         <div className='faq-title'>
                                             <p>Alquiler de grúas telescópicas</p>
-                                            <span class="material-icons">keyboard_arrow_down</span>
+                                            <span className="material-icons">keyboard_arrow_down</span>
                                         </div>
                                         <div className='faq-content'>
                                             <ul className='list-simple'>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
 
@@ -137,20 +137,20 @@ function Homepage(){
                                     <li className='faq faq-2'>
                                         <div className='faq-title'>
                                             <p>Izaje</p>
-                                            <span class="material-icons">keyboard_arrow_down</span>
+                                            <span className="material-icons">keyboard_arrow_down</span>
                                         </div>
                                         <div className='faq-content'>
                                             <ul className='list-simple'>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
 
@@ -164,20 +164,20 @@ function Homepage(){
                                     <li className='faq faq-3'>
                                         <div className='faq-title'>
                                             <p>Montaje y desmontaje</p>
-                                            <span class="material-icons">keyboard_arrow_down</span>
+                                            <span className="material-icons">keyboard_arrow_down</span>
                                         </div>
                                         <div className='faq-content'>
                                             <ul className='list-simple'>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
 
@@ -191,20 +191,20 @@ function Homepage(){
                                     <li className='faq faq-4'>
                                         <div className='faq-title'>
                                             <p>Eliminación de tierra</p>
-                                            <span class="material-icons">keyboard_arrow_down</span>
+                                            <span className="material-icons">keyboard_arrow_down</span>
                                         </div>
                                         <div className='faq-content'>
                                             <ul className='list-simple'>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
                                                 <li>
-                                                    <span class="material-icons">check</span>
+                                                    <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
 
@@ -232,11 +232,11 @@ function Homepage(){
 
                                 <ul className='list-simple'>
                                     <li>
-                                        <span class="material-icons">check</span>
+                                        <span className="material-icons">check</span>
                                         <p className='text'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>
                                     </li>
                                     <li>
-                                        <span class="material-icons">check</span>
+                                        <span className="material-icons">check</span>
                                         <p className='text'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>
                                     </li>
                                 </ul>
@@ -246,7 +246,7 @@ function Homepage(){
                                 <div className='timeline-container'>
                                     <div className='timeline-butons'>
                                         <button className='timeline-button timeline-button-1'>
-                                            <span class="material-icons">keyboard_arrow_up</span>
+                                            <span className="material-icons">keyboard_arrow_up</span>
                                         </button>
 
                                         <div className='timeline-scrollbar'>
@@ -254,7 +254,7 @@ function Homepage(){
                                         </div>
 
                                         <button className='timeline-button timeline-button-2'>
-                                            <span class="material-icons">keyboard_arrow_down</span>
+                                            <span className="material-icons">keyboard_arrow_down</span>
                                         </button>
                                     </div>
 

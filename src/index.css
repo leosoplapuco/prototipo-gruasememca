@@ -332,7 +332,15 @@ button{
 /**/
 
 @media screen and (max-width: 600px){
+    *{
+        font-size: 18px;
+    }
+
     .button-link{
         height: 56px;
+    }
+
+    .text-title{
+        font-size: 32px;
     }
 }

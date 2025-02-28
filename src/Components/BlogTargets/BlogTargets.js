@@ -11,10 +11,10 @@ function BlogTargets(){
                 <div className='d-flex-column gap-20'>
                     <div className='blog-targets-buttons'>
                         <button type='button' className='button-link button-link-2 blog-targets-button blog-targets-button-1'>
-                            <span class="material-icons">chevron_left</span>
+                            <span className="material-icons">chevron_left</span>
                         </button>
                         <button type='button' className='button-link button-link-2 blog-targets-button blog-targets-button-2'>
-                            <span class="material-icons">chevron_right</span>
+                            <span className="material-icons">chevron_right</span>
                         </button>
                     </div>
 
