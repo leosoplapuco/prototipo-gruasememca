@@ -53,7 +53,7 @@
 }
 
 .blog-target div{
-    padding: 10px;
+    padding: 20px 10px;
 }
 
 .blog-target-label{
@@ -87,7 +87,12 @@
     .blog-targets{
         width: calc(500% + 80px);
     }
+
     .blog-target{
         width: 100%;
+    }
+
+    .blog-target div{
+        padding: 10px;
     }
 }

@@ -28,7 +28,7 @@ function Homepage(){
                                 </li>
                             </ul>
 
-                            <ul className='d-flex gap-10'>
+                            <ul className='d-flex gap-10 homepage-hero-buttons'>
                                 <li>
                                     <a href='/nosotros/' className='button-link button-link-2'>
                                         <span className="material-icons">groups</span>
@@ -88,7 +88,7 @@ function Homepage(){
                                 <p className='homepage-services-target-title'>Más de <b>15 años</b> de experiencia nos respaldan... lorem ipsum lorem ipsum</p>
                                 <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
-                                <ul className='d-flex margin-right gap-10'>
+                                <ul className='d-flex margin-right gap-10 homepage-services-buttons'>
                                     <li>
                                         <a href="tel: +51998877665" title="" className='button-link button-link-1'>
                                             <span className="material-icons">phone_in_talk</span>
@@ -228,7 +228,7 @@ function Homepage(){
 
                         <div className='about-us-targets'>
                             <div className='about-us-target about-us-target-1 d-flex-column gap-20'>
-                                <p className='text-title'>Grúas <b>Ememca</b> S.A.C</p>
+                                {/* <p className='text-title'>Grúas <b>Ememca</b> S.A.C</p> */}
 
                                 <ul className='list-simple'>
                                     <li>

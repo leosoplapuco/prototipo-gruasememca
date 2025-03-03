@@ -316,7 +316,7 @@
 
 .timeline-scrollbar{
     width: 6px;
-    height: 240px;
+    height: 120px;
     background: rgba(0 0 0 / 0.25);
     border-radius: 3px;
     position: relative;
@@ -348,8 +348,17 @@
         grid-template-columns: 1fr;
     }
 
+    .homepage-hero-buttons{
+        flex-direction: column-reverse;
+    }
+
     .homepage-services{
         grid-template-columns: 1fr;
+    }
+
+    .homepage-services-buttons{
+        flex-direction: column;
+        margin-right: unset;
     }
 
     .about-us-targets{
