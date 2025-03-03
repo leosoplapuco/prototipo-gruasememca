@@ -127,11 +127,11 @@ header{
     rotate: 180deg;
 }
 
-.menu-link-5{
+.menu-link-6{
     position: relative;
 }
 
-.menu-link-5::before{
+.menu-link-6::before{
     content: 'Nuevo';
     position: absolute;
     left: 100%;
@@ -276,6 +276,42 @@ header{
 
 .menu-icon{
     display: none;
+    width: 56px;
+    height: 56px;
+    background: rgba(0 0 0 / 0.05);
+    border: 1px solid rgba(0 0 0 / 0.15);
+    border-radius: 4px;
+    position: relative;
+    transition: var(--t-200ms);
+}
+
+.menu-icon.active{
+    background: rgba(218 19 31 / 0.1);
+    border: 1px solid var(--red);
+}
+
+.menu-icon span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    transition: var(--t-200ms);
+}
+
+.menu-icon.active span{
+    color: var(--red);
+}
+
+.menu-icon span:nth-child(2){
+    scale: 0;
+}
+
+.menu-icon.active span:nth-child(2){
+    scale: 1;
+}
+
+.menu-icon.active span:nth-child(2){
+    scale: 0;
 }
 
 /**/
@@ -299,9 +335,8 @@ header{
     }
 
     .header-bottom-links li:nth-child(2) a{
-        width: 48px;
-        height: 48px;
-        padding: 0;
+        width: 56px;
+        height: 56px;
     }
 
     .header-bottom-links li:nth-child(2) a p{
@@ -357,7 +392,7 @@ header{
         border-radius: 0;
     }
     
-    .menu-link-5::before{
+    .menu-link-6::before{
         left: unset;
         bottom: unset;
         top: 50%;
@@ -428,5 +463,9 @@ header{
      
     .menu-icon{
         display: block;
+    }
+
+    .header-layer{
+        display: none;
     }
 }

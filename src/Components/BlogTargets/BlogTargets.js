@@ -27,7 +27,7 @@ function BlogTargets(){
                                     <div className='d-flex-column gap-10'>
                                         <span className='blog-target-label blog-target-label-1'>Servicios</span>
                                         <p className='blog-target-title'>Montaje de estructura metálica | REPSOL</p>
-                                        <p className='text'>Lorem Ipsum is simply dummy typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <p className='text'>Lorem Ipsum is simpltandard dummy text ever since the 1500s.</p>
                                     </div>
                                 </a>
                             </li>
@@ -39,7 +39,7 @@ function BlogTargets(){
                                     <div className='d-flex-column gap-10'>
                                         <span className='blog-target-label blog-target-label-2'>Blog</span>
                                         <p className='blog-target-title'>Montaje de estructura metálica | REPSOL</p>
-                                        <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <p className='text'>Lorem Ipsum is simpltandard dummy text ever since the 1500s.</p>
                                     </div>
                                 </a>
                             </li>
@@ -51,7 +51,7 @@ function BlogTargets(){
                                     <div className='d-flex-column gap-10'>
                                         <span className='blog-target-label blog-target-label-3'>Novedades</span>
                                         <p className='blog-target-title'>Montaje de estructura metálica | REPSOL</p>
-                                        <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <p className='text'>Lorem Ipsum is simpltandard dummy text ever since the 1500s.</p>
                                     </div>
                                 </a>
                             </li>
@@ -63,7 +63,7 @@ function BlogTargets(){
                                     <div className='d-flex-column gap-10'>
                                         <span className='blog-target-label blog-target-label-3'>Novedades</span>
                                         <p className='blog-target-title'>Montaje de estructura metálica | REPSOL</p>
-                                        <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <p className='text'>Lorem Ipsum is simpltandard dummy text ever since the 1500s.</p>
                                     </div>
                                 </a>
                             </li>
@@ -75,7 +75,7 @@ function BlogTargets(){
                                     <div className='d-flex-column gap-10'>
                                         <span className='blog-target-label blog-target-label-2'>Blog</span>
                                         <p className='blog-target-title'>Montaje de estructura metálica | REPSOL</p>
-                                        <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <p className='text'>Lorem Ipsum is simpltandard dummy text ever since the 1500s.</p>
                                     </div>
                                 </a>
                             </li>
