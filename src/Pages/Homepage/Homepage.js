@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import './Homepage.css';
 
 import Header from '../../Components/Header/Header';
@@ -5,7 +7,14 @@ import BlogTargets from '../../Components/BlogTargets/BlogTargets';
 import Machinery from '../../Components/Machinery/Machinery';
 import Footer from '../../Components/Footer/Footer';
 
-function Homepage(){
+const Homepage = () => {
+
+    const [activeIndex, setActiveIndex] = useState(null);
+
+    const handleClick = (index) => {
+        setActiveIndex(activeIndex === index ? null : index);
+    };
+
     return(
         <>
             <Header/>
@@ -107,8 +116,8 @@ function Homepage(){
 
                             <div className='homepage-services-target homepage-services-target-2'>
                                 <ul className='faqs'>
-                                    <li className='faq faq-1'>
-                                        <div className='faq-title'>
+                                    <li className={`faq faq-1 ${activeIndex === 1 ? 'active' : ''}`}>
+                                        <div className='faq-title' onClick={() => handleClick(1)}>
                                             <p>Alquiler de grúas telescópicas</p>
                                             <span className="material-icons">keyboard_arrow_down</span>
                                         </div>
@@ -126,16 +135,16 @@ function Homepage(){
                                                     <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
-
-                                                <a href='/' title='' className='button-link button-link-1 margin-left'>
-                                                    <p className='button-link-text'>Cotizar ahora</p>
-                                                </a>
                                             </ul>
+
+                                            <a href='/' title='' className='button-link button-link-1 margin-left'>
+                                                <p className='button-link-text'>Cotizar ahora</p>
+                                            </a>
                                         </div>
                                     </li>
 
-                                    <li className='faq faq-2'>
-                                        <div className='faq-title'>
+                                    <li className={`faq faq-2 ${activeIndex === 2 ? 'active' : ''}`}>
+                                        <div className='faq-title' onClick={() => handleClick(2)}>
                                             <p>Izaje</p>
                                             <span className="material-icons">keyboard_arrow_down</span>
                                         </div>
@@ -153,16 +162,16 @@ function Homepage(){
                                                     <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
-
-                                                <a href='/' title='' className='button-link button-link-1 margin-left'>
-                                                    <p className='button-link-text'>Cotizar ahora</p>
-                                                </a>
                                             </ul>
+
+                                            <a href='/' title='' className='button-link button-link-1 margin-left'>
+                                                <p className='button-link-text'>Cotizar ahora</p>
+                                            </a>
                                         </div>
                                     </li>
 
-                                    <li className='faq faq-3'>
-                                        <div className='faq-title'>
+                                    <li className={`faq faq-3 ${activeIndex === 3 ? 'active' : ''}`}>
+                                        <div className='faq-title' onClick={() => handleClick(3)}>
                                             <p>Montaje y desmontaje</p>
                                             <span className="material-icons">keyboard_arrow_down</span>
                                         </div>
@@ -180,16 +189,16 @@ function Homepage(){
                                                     <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
-
-                                                <a href='/' title='' className='button-link button-link-1 margin-left'>
-                                                    <p className='button-link-text'>Cotizar ahora</p>
-                                                </a>
                                             </ul>
+
+                                            <a href='/' title='' className='button-link button-link-1 margin-left'>
+                                                <p className='button-link-text'>Cotizar ahora</p>
+                                            </a>
                                         </div>
                                     </li>
 
-                                    <li className='faq faq-4'>
-                                        <div className='faq-title'>
+                                    <li className={`faq faq-4 ${activeIndex === 4 ? 'active' : ''}`}>
+                                        <div className='faq-title' onClick={() => handleClick(4)}>
                                             <p>Eliminación de tierra</p>
                                             <span className="material-icons">keyboard_arrow_down</span>
                                         </div>
@@ -207,11 +216,11 @@ function Homepage(){
                                                     <span className="material-icons">check</span>
                                                     <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                                                 </li>
-
-                                                <a href='/' title='' className='button-link button-link-1 margin-left'>
-                                                    <p className='button-link-text'>Cotizar ahora</p>
-                                                </a>
                                             </ul>
+
+                                            <a href='/' title='' className='button-link button-link-1 margin-left'>
+                                                <p className='button-link-text'>Cotizar ahora</p>
+                                            </a>
                                         </div>
                                     </li>
                                 </ul>
