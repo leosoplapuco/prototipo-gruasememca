@@ -268,7 +268,6 @@ button{
 .faq{
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .faq-title{
@@ -284,7 +283,8 @@ button{
     border-radius: 4px 4px 0 0;
 }
 
-.faq-title:hover{
+.faq-title:hover,
+.faq.active .faq-title{
     background: rgba(255 255 255 / 0.1);
 }
 
@@ -310,7 +310,7 @@ button{
 }
 
 .faq-title:hover::after,
-.faq-title.active::after{
+.faq.active .faq-title::after{
     width: 100%;
 }
 
@@ -323,10 +323,19 @@ button{
     color: var(--white);
 }
 
-
 .faq-content{
     overflow: hidden;
     height: 0;
+    transition: var(--t-200ms);
+    interpolate-size: allow-keywords;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq.active .faq-content{
+    height: auto;
+    padding: 20px 0;
 }
 
 /**/

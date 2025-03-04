@@ -57,7 +57,7 @@ function Machinery(){
                                 </li>
                             </ul>
 
-                            <p className='text'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>
+                            <p className='text'>Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>
                         </div>
 
                         <div className='blog-targets-buttons'>
