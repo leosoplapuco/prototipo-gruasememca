@@ -356,6 +356,11 @@
         grid-template-columns: 1fr;
     }
 
+    .homepage-services-target-title,
+    .homepage-services-target-title b{
+        font-size: 40px;
+    }
+
     .homepage-services-buttons{
         flex-direction: column;
         margin-right: unset;

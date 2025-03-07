@@ -47,6 +47,22 @@ header{
     text-decoration: underline;
 }
 
+.header-top-contact{
+    display: flex;
+    gap: 10px;
+}
+
+.header-top-contact a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header-top-contact a span{
+    font-size: 19px;
+}
+
 .header-top-contact a span,
 .header-top-contact a p{
     color: var(--white);
@@ -54,6 +70,10 @@ header{
 
 .header-top-contact a p{
     font-size: 16px;
+}
+
+.header-top-contact a:hover p{
+    text-decoration: underline;
 }
 
 /**/

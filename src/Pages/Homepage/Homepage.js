@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 import './Homepage.css';
 
+import GlobalVariables from '../../Components/GlobalVariables.json';
+
 import Header from '../../Components/Header/Header';
 import BlogTargets from '../../Components/BlogTargets/BlogTargets';
 import Machinery from '../../Components/Machinery/Machinery';
@@ -45,7 +47,7 @@ const Homepage = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='tel: +51998877665' className='button-link button-link-1'>
+                                    <a href={GlobalVariables.phone_1} className='button-link button-link-1'>
                                         <span className="material-icons">phone_in_talk</span>
                                         <p className='button-link-text'>Llamar ahora</p>
                                     </a>
@@ -99,16 +101,15 @@ const Homepage = () => {
 
                                 <ul className='d-flex margin-right gap-10 homepage-services-buttons'>
                                     <li>
-                                        <a href="tel: +51998877665" title="" className='button-link button-link-1'>
+                                        <a href={GlobalVariables.phone_1} title="" className='button-link button-link-1'>
                                             <span className="material-icons">phone_in_talk</span>
                                             <p className='button-link-text'>Llamar ahora</p>
                                         </a>
                                     </li>
-
                                     <li>
-                                        <a href="/nosotros/" title="" className='button-link button-link-3'>
-                                            <span className="material-icons">groups</span>
-                                            <p className='button-link-text'>Más de nosotros</p>
+                                        <a href="/servicios/" title="" className='button-link button-link-3'>
+                                            <p className='button-link-text'>Ver servicios</p>
+                                            <span class="material-icons">north_east</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -137,8 +138,9 @@ const Homepage = () => {
                                                 </li>
                                             </ul>
 
-                                            <a href='/' title='' className='button-link button-link-1 margin-left'>
+                                            <a href='/servicios/alquiler-de-gruas' title='' className='button-link button-link-1 margin-left'>
                                                 <p className='button-link-text'>Cotizar ahora</p>
+                                                <span className="material-icons">north_east</span>
                                             </a>
                                         </div>
                                     </li>
@@ -164,8 +166,9 @@ const Homepage = () => {
                                                 </li>
                                             </ul>
 
-                                            <a href='/' title='' className='button-link button-link-1 margin-left'>
+                                            <a href='/servicios/izaje' title='' className='button-link button-link-1 margin-left'>
                                                 <p className='button-link-text'>Cotizar ahora</p>
+                                                <span className="material-icons">north_east</span>
                                             </a>
                                         </div>
                                     </li>
@@ -191,8 +194,9 @@ const Homepage = () => {
                                                 </li>
                                             </ul>
 
-                                            <a href='/' title='' className='button-link button-link-1 margin-left'>
+                                            <a href='/servicios/montaje-y-desmontaje' title='' className='button-link button-link-1 margin-left'>
                                                 <p className='button-link-text'>Cotizar ahora</p>
+                                                <span className="material-icons">north_east</span>
                                             </a>
                                         </div>
                                     </li>
@@ -218,8 +222,9 @@ const Homepage = () => {
                                                 </li>
                                             </ul>
 
-                                            <a href='/' title='' className='button-link button-link-1 margin-left'>
+                                            <a href='/servicios/eliminacion-de-tierra' title='' className='button-link button-link-1 margin-left'>
                                                 <p className='button-link-text'>Cotizar ahora</p>
+                                                <span className="material-icons">north_east</span>
                                             </a>
                                         </div>
                                     </li>
