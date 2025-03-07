@@ -17,6 +17,7 @@
 .blog-targets-container{
     width: 100%;
     overflow: hidden;
+    /* overflow-x: auto; */
 }
 
 .blog-targets-container::-webkit-scrollbar{
@@ -24,14 +25,24 @@
 }
 
 .blog-targets{
+    /* margin-left: -60%; */
+    /* width: calc((550px * 5) + 80px); */
     width: auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    /* white-space: nowrap; */
     gap: 20px;
 }
 
+.blog-targets::-webkit-scrollbar{
+    display: none;
+}
+
 .blog-target{
-    width: 500px;
+    width: 480px;
+    /* max-width: 550px; */
     height: 100%;
     display: grid;
     grid-template-columns: auto 1fr;
