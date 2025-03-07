@@ -1,4 +1,7 @@
 import { useState } from 'react';
+
+import GlobalVariables from '../GlobalVariables.json';
+
 import './Header.css';
 
 function Header() {
@@ -38,9 +41,16 @@ function Header() {
                             </li>
                         </ul>
                         <div className='header-top-contact'>
-                            <a href='mailto: contacto@gruasememca.com' className='d-flex gap-5'>
+                            <a href={GlobalVariables.mail_1}>
                                 <span className="material-icons">mail</span>
-                                <p>contacto@gruasememca.com</p>
+                                <p>{GlobalVariables.mail_1_text}</p>
+                            </a>
+
+                            <p className='color-white'>|</p>
+
+                            <a href={GlobalVariables.mail_2}>
+                                <span className="material-icons">mail</span>
+                                <p>{GlobalVariables.mail_2_text}</p>
                             </a>
                         </div>
                     </div>
