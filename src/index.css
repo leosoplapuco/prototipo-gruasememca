@@ -321,6 +321,11 @@ button{
 
 .faq-title span{
     color: var(--white);
+    transition: var(--t-200ms);
+}
+
+.faq.active .faq-title span{
+    rotate: -180deg;
 }
 
 .faq-content{
