@@ -7,6 +7,7 @@ import GlobalVariables from '../../Components/GlobalVariables.json';
 import Header from '../../Components/Header/Header';
 import BlogTargets from '../../Components/BlogTargets/BlogTargets';
 import Machinery from '../../Components/Machinery/Machinery';
+import Map from '../../Components/Map/Map';
 import Footer from '../../Components/Footer/Footer';
 
 const Homepage = () => {
@@ -109,7 +110,7 @@ const Homepage = () => {
                                     <li>
                                         <a href="/servicios/" title="" className='button-link button-link-3'>
                                             <p className='button-link-text'>Ver servicios</p>
-                                            <span class="material-icons">north_east</span>
+                                            <span className="material-icons">north_east</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -335,6 +336,8 @@ const Homepage = () => {
                 </div>
 
                 <Machinery/>
+
+                <Map/>
             </main>
 
             <Footer/>
