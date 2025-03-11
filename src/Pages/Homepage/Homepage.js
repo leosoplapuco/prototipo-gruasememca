@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 import './Homepage.css';
 
@@ -16,6 +16,20 @@ const Homepage = () => {
 
     const handleClick = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
+    };
+
+    const timelineRef = useRef(null); // Referencia para la línea de tiempo
+
+    const scrollToStart = () => {
+        if (timelineRef.current) {
+            timelineRef.current.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    };
+
+    const scrollToEnd = () => {
+        if (timelineRef.current) {
+            timelineRef.current.scrollTo({ top: timelineRef.current.scrollHeight, behavior: "smooth" });
+        }
     };
 
     return(
@@ -243,7 +257,6 @@ const Homepage = () => {
 
                         <div className='about-us-targets'>
                             <div className='about-us-target about-us-target-1 d-flex-column gap-20'>
-                                {/* <p className='text-title'>Grúas <b>Ememca</b> S.A.C</p> */}
 
                                 <ul className='list-simple'>
                                     <li>
@@ -260,7 +273,7 @@ const Homepage = () => {
                             <div className='about-us-target about-us-target-2'>
                                 <div className='timeline-container'>
                                     <div className='timeline-butons'>
-                                        <button className='timeline-button timeline-button-1'>
+                                        <button className='timeline-button timeline-button-1' onClick={scrollToStart}>
                                             <span className="material-icons">keyboard_arrow_up</span>
                                         </button>
 
@@ -268,12 +281,12 @@ const Homepage = () => {
                                             <div className='timeline-scrollbar-thumb'></div>
                                         </div>
 
-                                        <button className='timeline-button timeline-button-2'>
+                                        <button className='timeline-button timeline-button-2' onClick={scrollToEnd}>
                                             <span className="material-icons">keyboard_arrow_down</span>
                                         </button>
                                     </div>
 
-                                    <div className='timeline-content'>
+                                    <div className='timeline-content' ref={timelineRef}>
                                         <div className='timeline-content-targets'>
                                             <div className='timeline-target'>
                                                 <div className='timeline-target-content'>
