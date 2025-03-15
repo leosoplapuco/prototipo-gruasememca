@@ -1,12 +1,17 @@
-import { Link } from "react-router-dom";
+import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
 
 function Error404(){
     return(
-        <div>
-            <h1>404 - Página No Encontrada</h1>
-            <p>Lo sentimos, la página que buscas no existe.</p>
-            <Link to="/">Volver al Inicio</Link>
-        </div>
+        <>
+            <Header/>
+
+            <main>
+                <p>Lo sentimos está página ya no está disponible</p>
+            </main>
+
+            <Footer/>
+        </>
     );
 }
 

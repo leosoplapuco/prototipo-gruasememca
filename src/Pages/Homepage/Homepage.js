@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 import './Homepage.css';
 
@@ -11,14 +12,13 @@ import Map from '../../Components/Map/Map';
 import Footer from '../../Components/Footer/Footer';
 
 const Homepage = () => {
-
     const [activeIndex, setActiveIndex] = useState(null);
 
     const handleClick = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
     };
 
-    const timelineRef = useRef(null); // Referencia para la línea de tiempo
+    const timelineRef = useRef(null);
 
     const scrollToStart = () => {
         if (timelineRef.current) {
@@ -34,6 +34,11 @@ const Homepage = () => {
 
     return(
         <>
+            <Helmet>
+                <title>Alquiler de grúas telescópicas | Grúas Ememca SAC</title>
+                <meta name="description" content="Página de contacto de Grúas Ememca SAC" />
+            </Helmet>
+
             <Header/>
 
             <main>
