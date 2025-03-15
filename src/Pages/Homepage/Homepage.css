@@ -140,7 +140,7 @@
     background: var(--black-2);
 }
 
-.block-container-homepage-services > section > div h2{
+.block-container-homepage-services > section > div h3{
     color: var(--white);
 }
 
@@ -163,7 +163,9 @@
 }
 
 .homepage-services-target-title b{
-    color: var(--red);
+    background: var(--red);
+    padding: 3px 10px;
+    border-radius: 4px;
 }
 
 .homepage-services-target .text{
