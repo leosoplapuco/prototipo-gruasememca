@@ -296,11 +296,11 @@ const Homepage = () => {
 
                                                 <p className='text'>2000</p>
 
-                                                <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
+                                                <img src="https://concepto.de/wp-content/uploads/2018/08/monta%C3%B1as-e1533762816593.jpg" alt="" />
                                             </div>
 
                                             <div className='timeline-target'>
-                                                <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
+                                                <img src="https://concepto.de/wp-content/uploads/2018/08/monta%C3%B1as-e1533762816593.jpg" alt="" />
 
                                                 <p className='text'>2001</p>
 
@@ -318,11 +318,11 @@ const Homepage = () => {
 
                                                 <p className='text'>2002</p>
 
-                                                <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
+                                                <img src="https://concepto.de/wp-content/uploads/2018/08/monta%C3%B1as-e1533762816593.jpg" alt="" />
                                             </div>
 
                                             <div className='timeline-target'>
-                                                <img src="https://gruasememca.vercel.app/assets/images/Components/Hero/gruas-ememca-repsol-2024.webp" alt="" />
+                                                <img src="https://concepto.de/wp-content/uploads/2018/08/monta%C3%B1as-e1533762816593.jpg" alt="" />
 
                                                 <p className='text'>2003</p>
 

@@ -10,7 +10,7 @@ function Machinery(){
 
                 <div className='machinery-targets'>
                     <div className='machinery-target machinery-target-1'>
-                        <img src="https://gruasememca.vercel.app/assets/images/Pages/Homepage/maquina-1.png" alt=''/>
+                        <img src="/assets/Img/1.png" alt="" />
 
                         <a href="/" className='button-link button-link-1 margin-left'>
                             <p className='button-link-text'>Ver ficha completa</p>
@@ -73,31 +73,31 @@ function Machinery(){
                             <ul className='machinery-list'>
                                 <li>
                                     <a href="/" title="">
-                                        <img src="https://gruasememca.vercel.app/assets/images/Pages/Homepage/maquina-1.png" alt="" />
+                                        <img src="/assets/Img/1.png" alt="" />
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="/" title="">
-                                        <img src="https://gruasememca.vercel.app/assets/images/Pages/Homepage/maquina-1.png" alt="" />
+                                        <img src="/assets/Img/1.png" alt="" />
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="/" title="">
-                                        <img src="https://gruasememca.vercel.app/assets/images/Pages/Homepage/maquina-1.png" alt="" />
+                                        <img src="/assets/Img/1.png" alt="" />
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="/" title="">
-                                        <img src="https://gruasememca.vercel.app/assets/images/Pages/Homepage/maquina-1.png" alt="" />
+                                        <img src="/assets/Img/1.png" alt="" />
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="/" title="">
-                                        <img src="https://gruasememca.vercel.app/assets/images/Pages/Homepage/maquina-1.png" alt="" />
+                                        <img src="/assets/Img/1.png" alt="" />
                                     </a>
                                 </li>
                             </ul>
